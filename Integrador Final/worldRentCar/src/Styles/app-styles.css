@@ -9,4 +9,11 @@
 
 .head{
     background-color: var(--darkblue);
+    margin: 0%;
 }
+
+.foot{
+  background-color: var(--darkblue);
+  margin: 0%;
+}
+

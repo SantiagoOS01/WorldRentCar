@@ -1,10 +1,10 @@
 import Header from './Utils/Header'
 import './Styles/app-styles.css'
+import AppRoutes from './RoutesUsers/AppRoutes'
 
 function App(){
   return(
-    
-    <></>
+    <AppRoutes/>  
   )
 }
 

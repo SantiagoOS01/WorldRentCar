@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom/dist/umd/react-router-dom.development";
+
 function Header (){
 
     return(
@@ -6,11 +8,11 @@ function Header (){
                     <img src="" alt="Logo" srcset="" />
                 </div>
                 <nav>
-                    <ul className="navbar">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Contactanos</a></li>
-                        <li><a href="#">Mis Reservas</a></li>
-                        <li><a href="#">Galeria</a></li>                        
+                    <ul>
+                        <li><Link to="/home">Inicio</Link></li>
+                        <li><Link to="/contact">Contacto</Link></li>
+                        <li><Link to="/gallery">Galeria</Link></li>
+                        <li><Link to="/myreservation">Mis Reservas</Link></li>
                     </ul>
                 </nav>
         </section>
