@@ -1,0 +1,12 @@
+:root{
+  --grey: #474747;
+  --darkblue: #102544;
+  --lightblue: #247fcc;
+  --yellow: #f29206;
+  --white: #ffffff;
+  --rose: #d9d9d9;
+}
+
+.head{
+    background-color: var(--darkblue);
+}
