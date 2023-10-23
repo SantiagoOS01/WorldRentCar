@@ -25,11 +25,11 @@ import Footer from "../Utils/Footer"
           <div>
             <Header/>
           <Routes>
-            <Route path='/' element={<LogIn/>}></Route>
+            <Route path='/login' element={<LogIn/>}></Route>
             <Route path='/categories' element={<Categories/>}></Route>
             <Route path='/contact' element={<ContacUs/>}></Route>
             <Route path='/gallery' element={<Gallery/>}></Route>
-            <Route path='/home' element={<Home/>}></Route>
+            <Route path='/' element={<Home/>}></Route>
             <Route path='/myreservation' element={<MyReservation/>}></Route>
             <Route path='/payment' element={<Payment/>}></Route>
             <Route path='/registration' element={<RegistrationForm/>}></Route>

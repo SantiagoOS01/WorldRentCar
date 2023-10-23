@@ -5,14 +5,18 @@ function Header (){
     return(
         <section className="head">
                 <div className="logo">
-                    <img src="" alt="Logo" srcset="" />
+                    <img src="../logo_WRC.png" alt="Logo" className="" />
                 </div>
                 <nav>
-                    <ul>
-                        <li><Link to="/home">Inicio</Link></li>
-                        <li><Link to="/contact">Contacto</Link></li>
-                        <li><Link to="/gallery">Galeria</Link></li>
-                        <li><Link to="/myreservation">Mis Reservas</Link></li>
+                    <ul className="navegacion">
+                        <li><Link to="/"><button>Inicio</button></Link></li>
+                        <li><Link to="/contact"><button>Contacto</button></Link></li>
+                        <li><Link to="/gallery"><button>Galeria</button></Link></li>
+                        <li><Link to="/myreservation"><button>Mis Reservas</button></Link></li><br />
+                    </ul>
+                    <ul className="registro">
+                        <li><Link to="/login"><button>iniciar sesion</button></Link></li>
+                        <li><Link to="/registration"><button>Crear cuenta</button></Link></li>
                     </ul>
                 </nav>
         </section>

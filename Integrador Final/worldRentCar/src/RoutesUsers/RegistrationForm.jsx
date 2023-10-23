@@ -7,40 +7,39 @@ const RegistrationForm = () => {
         <h1>Formulario de Registro</h1>
 
             
-        <form action="action="procesar_registro.php" method="post"">
+        <form action="procesar_registro_php" method="post">
 
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
+            <input type="text" id="nombre" name="nombre" required/> <br />
             
             <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required><br><br>
-    
+            <input type="text" id="apellido" name="apellido" required/><br />
+
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" required /><br />
     
             <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" required><br><br>
+            <input type="password" id="contrasena" name="contrasena" required /><br />
     
             <label for="pais">País:</label>
             <select id="pais" name="pais">
                 <option value="Selecciona">Selecciona</option>
                 <option value="Estados Unidos">Estados Unidos</option>
-                <option value="Canadá">Canadá</option>
-                <!-- Agrega más países aquí -->
-            </select><br><br>
+                <option value="Canadá">Canadá</option> 
+            </select><br />
     
             <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion"><br><br>
+            <input type="text" id="direccion" name="direccion" /><br />
     
             <label for="genero">Género:</label>
-            <input type="radio" id="genero-masculino" name="genero" value="Masculino"> Masculino
-            <input type="radio" id="genero-femenino" name="genero" value="Femenino"> Femenino
-            <input type="radio" id="genero-otro" name="genero" value="Otro"> Otro<br><br>
+            <input type="radio" id="genero-masculino" name="genero" value="Masculino" /> Masculino
+            <input type="radio" id="genero-femenino" name="genero" value="Femenino" /> Femenino
+            <input type="radio" id="genero-otro" name="genero" value="Otro" /> Otro<br />
     
             <label for="dni">DNI:</label>
-            <input type="text" id="dni" name="dni" required><br><br>
+            <input type="text" id="dni" name="dni" required /><br />
     
-            <input type="submit" value="Registrarse">
+            <input type="submit" value="Registrarse" />
         </form>
 
     </div>
