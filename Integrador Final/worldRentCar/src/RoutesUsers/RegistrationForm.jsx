@@ -4,7 +4,7 @@ const RegistrationForm = () => {
 
     return(
     <div>
-        <h1>Formulario de Registro</h1>
+        <h1 className='titulo-form'>Formulario de Registro</h1>
 
             
         <form action="procesar_registro_php" method="post">
@@ -24,8 +24,10 @@ const RegistrationForm = () => {
             <label for="pais">País:</label>
             <select id="pais" name="pais">
                 <option value="Selecciona">Selecciona</option>
-                <option value="Estados Unidos">Estados Unidos</option>
-                <option value="Canadá">Canadá</option> 
+                <option value="Argentina">Argentina</option> 
+                <option value="Chile">Chile</option> 
+                <option value="Colombia">Colombia</option> 
+                <option value="Uruguay">Uruguay</option> 
             </select><br />
     
             <label for="direccion">Dirección:</label>
@@ -39,7 +41,7 @@ const RegistrationForm = () => {
             <label for="dni">DNI:</label>
             <input type="text" id="dni" name="dni" required /><br />
     
-            <input type="submit" value="Registrarse" />
+            <input type="submit" value="Registrarse" className='button-contacto'/>
         </form>
 
     </div>

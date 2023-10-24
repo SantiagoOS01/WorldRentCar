@@ -8,12 +8,24 @@ const Footer = () => {
                 <img src="" alt="Logo" />
             </div>
             <div className='redes'>
-                <img src="" alt="facebook" />
-                <img src="" alt="instagram" />
-                <img src="" alt="whatsapp" />
-                <img src="" alt="tik tok" />
+                <div>             
+                <img src="../src/Redes/4.png" alt="facebook" />
+                <img src="../src/Redes/3.png" alt="facebook hover" className='hoveri'/>
+                </div> 
+                <div>
+                <img src="../src/Redes/5.png" alt="instagram" />
+                <img src="../src/Redes/6.png" alt="instagram hover" className='hoveri' />
+                </div>  
+                <div>
+                <img src="../src/Redes/1.png" alt="whatsapp" />
+                <img src="../src/Redes/2.png" alt="whatsapp hover" className='hoveri' />
+                </div>
+                <div>
+                <img src="../src/Redes/8.png" alt="tik tok" />
+                <img src="../src/Redes/7.png" alt="tik tok hover" className='hoveri' />
+                </div>
             </div>
-            <div><h2>Contacto</h2></div>
+            <div><h2>Contactanos</h2></div>
         </section>
     )
   

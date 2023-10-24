@@ -1,5 +1,10 @@
 
 export default function Carrusel () {
+
+    //CARGAR AUTO//
+
+
+
     return (
         <div>
             

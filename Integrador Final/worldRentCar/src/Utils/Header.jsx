@@ -10,9 +10,9 @@ function Header (){
                 <nav>
                     <ul className="navegacion">
                         <li><Link to="/"><button>Inicio</button></Link></li>
-                        <li><Link to="/contact"><button>Contacto</button></Link></li>
                         <li><Link to="/gallery"><button>Galeria</button></Link></li>
                         <li><Link to="/myreservation"><button>Mis Reservas</button></Link></li><br />
+                        <li><Link to="/contact"><button>Contacto</button></Link></li>
                     </ul>
                     <ul className="registro">
                         <li><Link to="/login"><button>iniciar sesion</button></Link></li>

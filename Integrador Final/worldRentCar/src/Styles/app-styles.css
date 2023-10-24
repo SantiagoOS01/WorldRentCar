@@ -5,6 +5,8 @@
   --yellow: #f29206;
   --white: #ffffff;
   --rose: #d9d9d9;
+  font-family: sans-serif;
+
 }
 
 /*======= HEADER =======*/
@@ -12,9 +14,11 @@
 
 .head{
     background-color: var(--darkblue);
-    margin: 0%;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 1px 4px;
 }
 .logo img{
   width: 80px;
@@ -35,7 +39,11 @@ nav{
   background-color: #f29206;
   border: none;
   padding: 3px 8px;
-  border-radius: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.head ul li :hover{
+  color: white;
 }
 a{
   text-decoration: none;
@@ -62,6 +70,9 @@ input[type="submit"] {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+}
+.button-contacto:hover{
+  background-color: #ffa620;
 }
 
 
@@ -98,19 +109,198 @@ input[type="submit"] {
 }
 
 .card button {
-  background-color: #000;
+  background-color:#f29206;
   color: #fff;
   padding: 10px 20px;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
+}
+.card button:hover{
+  color: black;
+}
+/*======= REGISTRATION =======*/
+
+.titulo-form{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color:#f29206;
+  color: #fff;
+  cursor: pointer;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><polygon points='12.83 6.83 16 10 8 16 0 10 3.17 6.83'/><path fill='none' stroke='#000' stroke-miterlimit='10' stroke-width='2' d='M8 16l4-4m0 0l-4-4'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 15px;
+}
+/*======= LOGIN =======*/
+
+.titulo-login {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-log {
+  background-color:#f29206;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button-log:hover{
+  color: white;
+}
+
+.ruta-a-registro {
+  text-align: center;
+}
+.ruta-a-registro :hover{
+  color: #f29206;
+}
+/*======= MIS RESERVAS =======*/
+.mis-reservas{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  background-color: #ccc;
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+img {
+  width: 100px;
+}
+/*======= CATEGORIAS =======*/
+
+.area-categorias{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.imagen-categoria{
+  margin: 0 auto;
+
+}
+.imagen-categoria img{
+  width: 90%;
+  height: 90%;
 }
 
 /*======= FOOTER =======*/
 .foot{
   background-color: var(--darkblue);
-  margin-top: 20px;
-  position:static;
+  position:relative;
   bottom: 0px;
   width: 100%;
+  margin-top: 40px;
+}
+
+.redes img {
+  width: 30px; 
+  margin: 0 10px; 
+}
+
+h2 {
+  font-size: 18px; 
+}
+
+
+
+.redes {
+  display: flex;
+}
+
+
+.redes div {
+  position: relative;
+  margin-right: 10px; 
+}
+
+
+.redes img {
+  width: 30px; 
+  height: auto; 
+}
+
+
+.redes img.hoveri {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.redes div:hover .hoveri {
+  display: block;
 }
 

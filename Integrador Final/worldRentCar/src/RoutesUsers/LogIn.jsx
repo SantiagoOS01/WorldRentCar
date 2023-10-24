@@ -5,7 +5,7 @@ const LogIn = () => {
 
     return(
         <div>
-        <h2>Iniciar sesión</h2>
+        <h2 className='titulo-login'>Iniciar sesión</h2>
         <form action="procesar-login.php" method="post">
             <div class="form-group">
                 <label for="email">Correo electrónico</label>                
@@ -15,9 +15,9 @@ const LogIn = () => {
                 <label for="password">Contraseña</label>
                 <input type="password" id="password" name="password" required />                
             </div>
-            <button type="submit">Iniciar sesión</button>
+            <button type="submit" className='button-log'>Iniciar sesión</button>
         </form>
-        <p>¿No tienes una cuenta? <Link to ="/registration"><p>Registrate Aqui</p></Link> </p>
+        <p className='ruta-a-registro'>¿No tienes una cuenta? <Link to ="/registration"><p>Registrate Aqui</p></Link> </p>
         </div>
     )
 }
