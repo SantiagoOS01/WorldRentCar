@@ -15,6 +15,10 @@ function Header (){
                         <li><Link to="/myreservation">Mis Reservas</Link></li>
                     </ul>
                 </nav>
+                <div className="buttons_head">
+                    <button>Iniciar Sesion</button>
+                    <button>Crear Cuenta</button>
+                </div>
         </section>
     )
 }
