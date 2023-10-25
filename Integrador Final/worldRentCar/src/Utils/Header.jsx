@@ -1,25 +1,19 @@
 import { Link } from "react-router-dom/dist/umd/react-router-dom.development";
+import SearchBar from "./SearchBar";
 
 function Header (){
 
     return(
         <section className="head">
                 <div className="logo">
-                    <img src="" alt="Logo" srcset="" />
-                </div>
-                <nav>
-                    <ul>
-                        <li><Link to="/home">Inicio</Link></li>
-                        <li><Link to="/contact">Contacto</Link></li>
-                        <li><Link to="/gallery">Galeria</Link></li>
-                        <li><Link to="/myreservation">Mis Reservas</Link></li>
-                    </ul>
-                </nav>
-                <div className="buttons_head">
-                    <button>Iniciar Sesion</button>
-                    <button>Crear Cuenta</button>
-                </div>
+                   <Link to="/"><img src="../src/Redes/CAR 2@3x.png" alt="Logo" className="" /></Link>
+                </div>                
+                    <ul className="registro">
+                        <li><Link to="/login"><button className="headerbutton">Iniciar Sesion</button></Link></li>
+                        <li><Link to="/registration"><button className="headerbutton">Crear Cuenta</button></Link></li>
+                    </ul>                       
         </section>
+        
     )
 }
 

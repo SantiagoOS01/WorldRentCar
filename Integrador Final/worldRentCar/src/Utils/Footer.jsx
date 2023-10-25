@@ -5,7 +5,7 @@ const Footer = () => {
     return(
         <section className='foot'>
             <div className='logo'>                
-                <img src="" alt="Logo" />
+                <img src="../src/Redes/CAR 2@3x.png" alt="Logo" />
             </div>
             <div className='redes'>
                 <div>             
@@ -25,7 +25,7 @@ const Footer = () => {
                 <img src="../src/Redes/7.png" alt="tik tok hover" className='hoveri' />
                 </div>
             </div>
-            <div><h2>Contactanos</h2></div>
+            <Link to="/contact"><div><h2 className='text-contact'>Contactanos</h2></div></Link>
         </section>
     )
   

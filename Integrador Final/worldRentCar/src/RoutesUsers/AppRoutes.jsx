@@ -17,12 +17,12 @@ import AddVehicle from "../RoutesAdmin/AddVehicle";
 import EditVehicle from "../RoutesAdmin/EditVehicle"
 import Header from "../Utils/Header";
 import Footer from "../Utils/Footer"
+import SearchBar from "../Utils/SearchBar";
 
   function AppRoutes(){
     return (
         <Router>          
-          <div>
-            <Header/>
+            <Header/>                 
           <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/login' element={<LogIn/>}></Route>
@@ -35,9 +35,8 @@ import Footer from "../Utils/Footer"
             <Route path='/rent' element={<Rent/>}></Route>
             <Route path='/edit' element={<EditVehicle/>}></Route>
             <Route path='/add' element={<AddVehicle/>}></Route>
-          </Routes>
-          <Footer/>
-          </div>
+          </Routes>          
+          <Footer/>          
           
         </Router>
     )
