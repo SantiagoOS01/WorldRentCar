@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/registration_form.css'
+
 
 const RegistrationForm = () => {
 

@@ -2,19 +2,18 @@ import React from 'react'
 
 const CarCards = () => {
   return (
-    <section className='cards'>
-        <div>
-            <img src="" alt="auto" />
+    <div class="card">                    
+        <img src="" alt="Imagen del artículo" />
+        <div className='car-details'>
+        <h3>Modelo: </h3>
+        <p>Marca:</p>
+        <p>Precio: </p>
         </div>
-        <div>
-            <h2>Marca: </h2>
-            <h2>Modelo: </h2>
-            <h2>Precio: </h2>
+        <div className='card-buttons'>
+        <button>Reservar</button>
+        <button>Más Detalles</button>
         </div>
-        <div>
-            <button>Ver Detalles</button>
-        </div>
-    </section>
+     </div>
   )
 }
 
