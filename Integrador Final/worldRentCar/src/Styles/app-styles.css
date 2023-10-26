@@ -14,11 +14,12 @@
 
 .head{
     background-color: var(--darkblue);
-    position: fixed;
+    position: sticky;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1px 4px;
+    top: 0;
 }
 .logo img{
   width: 80px;
@@ -74,6 +75,7 @@ input[type="submit"] {
 .button-contacto:hover{
   background-color: #ffa620;
 }
+
 
 
 /*======= GALERIA =======*/
